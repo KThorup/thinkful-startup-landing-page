@@ -52,17 +52,14 @@ table {
 body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
-	font-size:;
 	letter-spacing: 0.03em;
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
 }
 
 div {
 }
 
 .top-navigation {
-	background-color: : #fff;
+	background-color: white;
 }
 
 .top-navigation > .content {
@@ -70,7 +67,6 @@ div {
 	width: 970px;
 	height: 70px;
 	padding: 0px 15px;
-	-webkit-box-sizing: border-box;
 }
 
 .top-navigation .logo {
@@ -109,6 +105,11 @@ section {
 	overflow: hidden;
 }
 
+img {
+	vertical-align: middle;
+}
+
+
 .introduction {
 	background-color: #f15a29;
 	background-image: url(../img/first-background.jpg);
@@ -124,11 +125,14 @@ section {
 }
 
 
-.introduction .content {
+.introduction .content, .cases .content, .footer .content {
 	color: white;
 	text-align: center;	
-	padding: 0px;
 	font-size: 30px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .introduction .content .buttons {
@@ -155,7 +159,6 @@ section {
 	background-image: none;
 	border: 1px solid transparent;
 	white-space: nowrap;
-	-webkit-user-select: none;
 }
 
 .btn-lg {
@@ -189,22 +192,76 @@ section {
 }
 
 h1 {
-	margin: 0.67em 0;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+	margin: 0.95em 0;
+	font-size: 44px;
+	font-weight: 300;
+}
+
+
+h2 {
+	margin: 0.85em 0;
+	display: block;
+	font-size: 44px;
+	font-weight: 300;
+	color: black;
 }
 
 h3 {
+	margin: 0.85em 0;
 	font-size: 24px;
 }
 
-h1, h2 {
-	font-weight: 300;
-	font-size: 50px;
+h4 {
+	margin: 0.85em 0;
+	font-size: 18px;
+    color: black;
 }
-h1, h2, h3 {
-	line-height: 1.25;
+
+h5 {
+	margin: 0.85em 0;
+	font-size: 15px;
 }
+
+.introduction .content h3 {
+	color:white;
+}
+
+.cases .content h3 {
+	color:black;
+}
+
+.footer .content h5 {
+	color:gray;
+
+}
+
+
+.cases {
+	text-align: center;
+    background-color: white;
+}
+
+.cases .devices {
+    display: inline-block;
+}
+
+
+.cases .devices img {
+    width: 33.3333333%;
+    height: 4em;
+}
+
+.social{
+	text-align: center;
+	border-radius: 21px;
+}
+
+.social li a {
+	width: 42px;
+	height: 42px;
+	line-height: 42px:
+}
+
 
 
 
